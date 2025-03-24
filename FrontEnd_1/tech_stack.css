@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .tech-section {
+    text-align: center;
+    margin: 150px auto;
+    max-width: 1218px;
+  }
+  
+  .tech-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #42446E;
+    margin-bottom: 10px;
+  }
+  
+  .tech-section p {
+    font-size: 32px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .tech-icons {
+    margin-top: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px;
+      
+  }
+  
+  .tech-section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .tech-section img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tech-icons a:hover img {
+    transform: scale(1.1);
+  }
+  
