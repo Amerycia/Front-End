@@ -1,0 +1,24 @@
+@import "header.css";
+@import "header-user-name.css";
+@import "header-nav.css";
+
+@import "index-hero-section.css";
+@import "about-hero-photo.css";
+
+@import "tech-section.css";
+@import "tech-icons.css";
+
+@import "project-section.css";
+@import "projects.css";
+
+@import "footer.css";
+
+/*page ABOUT*/
+@import "about-hero-section.css";
+
+/*page PROJECTS*/
+@import "project-filter-container.css";
+
+/*page CONTACT*/
+@import "contact-form-section.css";
+

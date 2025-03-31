@@ -1,0 +1,12 @@
+.tech-icons {
+    margin-top: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px;   
+  }
+  
+  
+  .tech-icons a:hover img {
+    transform: scale(1.1);
+  }
