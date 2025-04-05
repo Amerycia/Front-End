@@ -1,0 +1,51 @@
+.index-hero-section {
+  margin-top: 218px;          
+  width: 100%;
+  max-width: 1204px;         
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;     
+  margin-right: auto;     
+}
+
+.index-hero-section .about-hero {
+  width: 728px;
+  margin-right: 20px;    
+  color: #42446E;     
+}
+  
+.index-hero-section .about-hero h1 {
+  font-size: 58px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  line-height: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .index-hero-section .about-hero h1 {
+  font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .index-hero-section {
+  flex-direction: column;
+  padding-bottom: 20%;
+  }
+  
+  .index-hero-section .about-hero {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .index-hero-section .about-hero h1 {
+    font-size: 44px;
+  }
+}
+
+  @media screen and (max-width: 480px) {
+    .index-hero-section .about-hero h1 {
+    font-size: 32px;
+  }
+}

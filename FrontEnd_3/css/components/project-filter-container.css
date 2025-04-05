@@ -1,0 +1,42 @@
+.project-filter-container {
+width: 100%;
+max-width: 1210px;
+height: 45px;
+margin: 20px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 8px;
+}
+
+.project-filter-container .dropdown {
+width: 371px;
+height: 44px;
+padding: 0 15px;
+font-size: 16px;
+font-weight: 400;
+font-family: 'Poppins', sans-serif;
+border: 1px solid #ccc;
+border-radius: 5px;
+cursor: pointer;
+position: relative;
+color: #666666;
+}
+
+.project-filter-container .dropdown:focus {
+outline: none;
+border-color: #666;
+}
+
+@media screen and (max-width: 1024px) {
+.project-filter-container {
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+ 

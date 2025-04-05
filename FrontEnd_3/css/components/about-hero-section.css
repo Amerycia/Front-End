@@ -1,0 +1,73 @@
+.about-hero-section {
+    margin-top: 124px;          
+    width: 100%;
+    max-width: 1204px;         
+    height: 815px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;     
+    margin-right: auto;  
+  }
+
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #42446E;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.about-hero-section .job-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 785px;
+    height: 75px;
+    border-bottom: 2px solid #EBEAED;
+}
+
+.about-hero-section .job-container .job-title {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+}
+
+.about-hero-section .job-container h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-hero-section .job-container .job-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #A7A7A7;
+}
+
+.about-hero-section .job-container .job-meta .badge {
+    width: 94px;
+    height: 24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D7FFE0;
+    color: #018C0F;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+

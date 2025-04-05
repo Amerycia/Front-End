@@ -1,0 +1,15 @@
+.contact-form-section {
+  width: 100%;
+  max-width: 910px;
+  height: 393px;
+  margin: 50px auto;
+  margin-bottom: 217px;
+}
+
+@media (max-width: 1024px) {
+  .contact-form-section {
+    margin-bottom: 300px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
